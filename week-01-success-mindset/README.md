@@ -33,8 +33,7 @@ You will reuse this in later weeks. So do it properly once.
 
 ## Answer
 
-Add your answer here...
-
+The truth I believed that most people around me will diasgree with is that you can only boldly defend and proof what you have done, tested and implemented. Most of the people don't want to pass through this proccess, they thought shortcut is the best way rather than passing through the proccess that required time for learning, testing and impelementing it.
 ---
 
 # Assignment 2. What are the top 3 objective truths you discovered through experimentation and results?
@@ -49,11 +48,11 @@ Write each truth in this format:
 
 **Evidence from my life:** (2–4 lines: what you tried + what happened)
 
----
+--- 
 
 ## Truth #1
 
-### Truth
+### Do a deep search of knowlege
 
 Add your answer here...
 
@@ -65,7 +64,7 @@ Add your answer here...
 
 ## Truth #2
 
-### Truth
+### Have a mentor
 
 Add your answer here...
 
@@ -77,7 +76,7 @@ Add your answer here...
 
 ## Truth #3
 
-### Truth
+### Ready to say no 
 
 Add your answer here...
 
