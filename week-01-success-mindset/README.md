@@ -32,9 +32,8 @@ You will reuse this in later weeks. So do it properly once.
 **Hint:** What do you believe about career, money, learning, discipline, relationships, health, success, life, tech industry, etc. that most people don't agree with?
 
 ## Answer
-Your idea is strong, but it has several grammar, spelling, and clarity issues. Here's a polished, more natural version that preserves your original meaning while making it more compelling.
 
-**My belief that most people around me would disagree with is this: you can only confidently defend and stand behind something you have personally done, tested, and implemented.**
+My belief that most people around me would disagree with is this: you can only confidently defend and stand behind something you have personally done, tested, and implemented.
 
 Many people prefer shortcuts because they believe they are the fastest way to achieve success. However, I believe that true confidence and expertise come from investing time in the learning process, experimenting, making mistakes, and applying knowledge in real-world situations.
 
@@ -144,8 +143,7 @@ P.S. This post is a part of DevOps Micro Internship with Agentic AI Cohort-3 by 
 
 Paste your link here:
 
-`__________________________`
-
+`https://petatechscom.wordpress.com/2026/07/02/what-my-2-0-version-looked-like/`
 ---
 
 # Assignment 4. Have you ever cut corners (unethical / dishonest / shortcut behavior — not necessarily illegal)? If yes, how did it make you feel?
@@ -344,9 +342,8 @@ Paste your LinkedIn post link here:
 
 ## 10. Proof of Work
 
-- LinkedIn Post URL: **ADD LINK HERE**  
-- Blog / Medium : **ADD LINK HERE**  
-
+- LinkedIn Post URL: 
+- Blog / Medium: https://petatechscom.wordpress.com/2026/07/02/what-my-2-0-version-looked-like/
 ---
 
 ## 📌 About DMI & CloudAdvisory
