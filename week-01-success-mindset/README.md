@@ -141,7 +141,7 @@ P.S. This post is a part of DevOps Micro Internship with Agentic AI Cohort-3 by 
 
 ### Public Link
 
-Paste your link here:
+Paste your link here: https://www.linkedin.com/posts/taiwo-olatunji-661857231_what-my-20-version-looked-like-when-people-activity-7478914701272313858-8VCN?utm_source=share&utm_medium=member_android&rcm=ACoAADn39-kBzug334WySSqiA2rMPD8PZeDdpGE
 
 `https://petatechscom.wordpress.com/2026/07/02/what-my-2-0-version-looked-like/`
 ---
@@ -336,13 +336,14 @@ One system I will implement from this week is that I will plan what to achieve d
 
 Paste your LinkedIn post link here:
 
-`__________________________`
-
+https://www.linkedin.com/posts/taiwo-olatunji-661857231_what-my-20-version-looked-like-when-people-activity-7478914701272313858-8VCN?utm_source=share&utm_medium=member_android&rcm=ACoAADn39-kBzug334WySSqiA2rMPD8PZeDdpGE
 ---
 
 ## 10. Proof of Work
 
-- LinkedIn Post URL: 
+- LinkedIn Post URL:
+  https://www.linkedin.com/posts/taiwo-olatunji-661857231_what-my-20-version-looked-like-when-people-activity-7478914701272313858-8VCN?utm_source=share&utm_medium=member_android&rcm=ACoAADn39-kBzug334WySSqiA2rMPD8PZeDdpGE
+  
 - Blog / Medium: https://petatechscom.wordpress.com/2026/07/02/what-my-2-0-version-looked-like/
 ---
 
