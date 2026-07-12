@@ -1,5 +1,7 @@
 # Assignment 2 — Teaching Claude Your Project
 
+![steps](devops-micro-internship-pravinmishra\week-02-agentic-ai\Deployment_Steps.png)
+
 Part of the DevOps Micro Internship (DMI) Cohort 3 with Agentic AI
 
 ---
@@ -20,9 +22,7 @@ Capture Claude’s response before `CLAUDE.md` exists in the project to establis
 
 #### Screenshot 1 — Claude response before CLAUDE.md
 
-Add your screenshot here.
-
----
+![Claude response before claude.md](devops-micro-internship-pravinmishra\week-02-agentic-ai\screenshots\before-claude-md.png)
 
 # Task 2 — Generate the First Draft with /init
 
@@ -34,9 +34,7 @@ Generate an initial `CLAUDE.md` file using the `/init` command and review the au
 
 #### Screenshot 2 — Auto-generated CLAUDE.md
 
-Add your screenshot here.
-
----
+![/init](devops-micro-internship-pravinmishra\week-02-agentic-ai\screenshots\init.png)
 
 # Task 3 — Customize the CLAUDE.md
 
@@ -48,9 +46,7 @@ Update the generated `CLAUDE.md` file by adding project-specific instructions ac
 
 #### Screenshot 3 — Customized CLAUDE.md (all 5 sections visible)
 
-Add your screenshot here.
-
----
+![5_section_vissible](devops-micro-internship-pravinmishra\week-02-agentic-ai\screenshots\all_5_section.png)
 
 # Task 4 — Test the After State
 
@@ -62,15 +58,12 @@ Verify that Claude’s behavior changes after adding `CLAUDE.md` by running a ne
 
 #### Screenshot 4 — Claude response with project-specific deployment details
 
-Add your screenshot here.
+![Deployment_Details](devops-micro-internship-pravinmishra\week-02-agentic-ai\screenshots\DeploymentStep.png)
 
----
 
 #### Screenshot 5 — Claude response rejecting React/component change based on rules
 
-Add your screenshot here.
-
----
+![rejecting react/component](devops-micro-internship-pravinmishra\week-02-agentic-ai\screenshots\RejectReactComponent.png)
 
 # Submission Instructions
 
@@ -84,7 +77,7 @@ Add your screenshot here.
 
 Paste your forked repository URL here:
 
-`__________________________`
+`https://github.com/Taiwo-Peter2023/Ultimate-Agentic-DevOps-with-Claude-Code`
 
 ---
 

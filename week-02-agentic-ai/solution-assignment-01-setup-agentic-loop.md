@@ -36,7 +36,7 @@ Fork the provided GitHub repository, clone it to your local machine, and open it
 
 #### Screenshot 3 — Project opened in VS Code
 
----[starter_repo](devops-micro-internship-pravinmishra\week-02-agentic-ai\screenshots\starter_repository.png)
+![starter_repo](devops-micro-internship-pravinmishra\week-02-agentic-ai\screenshots\starter_repository.png)
 
 # Task 3 — Observe the Agentic Loop
 
@@ -48,13 +48,11 @@ Interact with Claude Code and observe how it performs the Agentic Loop (Gather �
 
 #### Screenshot 4 — Claude reading project files and responding
 
-Add your screenshot here.
-
----[](devops-micro-internship-pravinmishra\week-02-agentic-ai\screenshots\claude_reading_file.png)
+![](devops-micro-internship-pravinmishra\week-02-agentic-ai\screenshots\claude_reading_file.png)
 
 #### Screenshot 5 — Claude executing command to count CSS lines
 
----[css](devops-micro-internship-pravinmishra\week-02-agentic-ai\screenshots\css_line.png)
+![css_Lines](devops-micro-internship-pravinmishra\week-02-agentic-ai\screenshots\css_line.png)
 
 # Submission Instructions
 
@@ -66,7 +64,6 @@ Add your screenshot here.
 
 ## GitHub Repository URL
 
-Paste your forked repository URL here:
 
 `https://github.com/Taiwo-Peter2023/Ultimate-Agentic-DevOps-with-Claude-Code`
 
