@@ -33,15 +33,13 @@ You will reuse this in later weeks. So do it properly once.
 
 ## Answer
 
-My belief that most people around me would disagree with is this: you can only confidently defend and stand behind something you have personally done, tested, and implemented.
+--- My belief that most people around me would disagree with is this: you can only confidently defend and stand behind something you have personally done, tested, and implemented.
 
 Many people prefer shortcuts because they believe they are the fastest way to achieve success. However, I believe that true confidence and expertise come from investing time in the learning process, experimenting, making mistakes, and applying knowledge in real-world situations.
 
 When you have personally built, tested, and implemented something, you gain a deeper understanding of how it works. That experience enables you to explain your decisions, solve unexpected problems, and defend your work with confidence. While shortcuts may produce quick results, they rarely provide the depth of knowledge and practical experience needed for long-term success.
 
 For me, the process of learning, testing, and implementing is far more valuable than simply arriving at the destination. It is the journey that builds competence, credibility, and the confidence to stand by your work.
-
----
 
 # Assignment 2. What are the top 3 objective truths you discovered through experimentation and results?
 
@@ -336,7 +334,7 @@ One system I will implement from this week is that I will plan what to achieve d
 
 Paste your LinkedIn post link here:
 
-`Add your URL here`
+`https://www.linkedin.com/posts/taiwo-olatunji-661857231_what-my-20-version-looked-like-when-people-activity-7478914701272313858-8VCN?utm_source=share&utm_medium=member_android&rcm=ACoAADn39-kBzug334WySSqiA2rMPD8PZeDdpGE`
 
 ---
 
