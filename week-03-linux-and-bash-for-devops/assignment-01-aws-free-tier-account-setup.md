@@ -22,19 +22,22 @@ Demonstrate understanding of AWS basics and Free Tier usage by answering the fol
 
 Write your answer here.
 
----
+--- AWS account is the console environment to access AWS services
 
 #### Question 2 — What is AWS Free Tier, and how long does it last?
 
 Write your answer here.
 
----
+--- AWS Free Tier is a free account created on AWS console environment to access AWS free services for given period of time.
+The free account can last for 6 to 12 months
 
 #### Question 3 — Name three AWS Free Tier services and their free usage limits.
 
 Write your answer here.
 
----
+--- 
+1. 3 months/2. 6 months
+3. 12 months
 
 # Task 2 — Create AWS Free Tier Account
 
@@ -56,9 +59,10 @@ Confirm that your AWS account setup is complete by navigating to the Account sec
 
 #### Screenshot 1 — AWS Account page showing account name (email may be blurred)
 
-Add your screenshot here.
+Add your screens
+hot here.
 
----
+![AWSaccount](devops-micro-internship-pravinmishra\week-03-linux-and-bash-for-devops\screenshots\AWS_Account.png)
 
 # Submission Instructions
 
