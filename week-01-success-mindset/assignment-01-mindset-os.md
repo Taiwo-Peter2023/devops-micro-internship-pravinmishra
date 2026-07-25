@@ -340,10 +340,11 @@ Paste your LinkedIn post link here:
 
 ## 10. Proof of Work
 
-- LinkedIn Post URL:
+ LinkedIn Post URL:
   https://www.linkedin.com/posts/taiwo-olatunji-661857231_what-my-20-version-looked-like-when-people-activity-7478914701272313858-8VCN?utm_source=share&utm_medium=member_android&rcm=ACoAADn39-kBzug334WySSqiA2rMPD8PZeDdpGE
-  
-- Blog / Medium: https://petatechscom.wordpress.com/2026/07/02/what-my-2-0-version-looked-like/
+
+
+ Blog/Medium: https://petatechscom.wordpress.com/2026/07/02/what-my-2-0-version-looked-like/
 ---
 
 ## 📌 About DMI & CloudAdvisory

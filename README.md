@@ -57,7 +57,7 @@ This is not a course. It is an internship-style program — real deployments, re
 
 *Earn a badge each week. To unlock: remove the `<!--` and `-->` from the badge line below.*
 
-*Share your stack:* `https://github.com/YOUR-USERNAME/devops-micro-internship-pravinmishra#my-devops-stack`
+*Share your stack:* `https://github.com/Taiwo-Peter2023/devops-micro-internship-pravinmishra#my-devops-stack`
 
 **Preview — what your full stack looks like:**
 
@@ -131,7 +131,7 @@ Week 03 → Linux & Bash for DevOps
 | Week | Topic | Status | Assignment | LinkedIn Post | Blog Post |
 |------|-------|--------|------------|---------------|-----------|
 | 00 | Internet & Networking Basics | ⬜ Not Started | ⏳ Pending | — | — |
-| 01 | Success Mindset | ⬜ Not Started | ⏳ Pending | — | — |
+| 01 | Success Mindset | Completed | Submitted | https://www.linkedin.com/posts/taiwo-olatunji-661857231_what-my-20-version-looked-like-when-people-share-7478914698294407168-ydj0/?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAADn39-kBzug334WySSqiA2rMPD8PZeDdpGE | Completed | https://petatechscom.wordpress.com/2026/07/02/what-my-2-0-version-looked-like |
 | 02 | Agentic AI with Claude Code | ⬜ Not Started | ⏳ Pending | — | — |
 | 03 | Linux & Bash for DevOps | ⬜ Not Started | ⏳ Pending | — | — |
 | 04 | Git & GitHub | ⬜ Not Started | ⏳ Pending | — | — |
