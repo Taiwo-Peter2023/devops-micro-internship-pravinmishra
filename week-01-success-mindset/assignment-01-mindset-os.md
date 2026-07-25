@@ -33,7 +33,8 @@ You will reuse this in later weeks. So do it properly once.
 
 ## Answer
 
---- My belief that most people around me would disagree with is this: you can only confidently defend and stand behind something you have personally done, tested, and implemented.
+---
+ My belief that most people around me would disagree with is this: you can only confidently defend and stand behind something you have personally done, tested, and implemented.
 
 Many people prefer shortcuts because they believe they are the fastest way to achieve success. However, I believe that true confidence and expertise come from investing time in the learning process, experimenting, making mistakes, and applying knowledge in real-world situations.
 
@@ -198,8 +199,7 @@ Choose books that improve:
 
 1. Atomic Habits - James Clear
 2. Deep Work - Cal Newport
-3. How to Win Friends and Influence People
- - Dale Carnegie
+3. How to Win Friends and Influence People - Dale Carnegie
 4. The Psychology of Money - Morgan Housel
 5. The 7 Habits of Highly Effective People - Stephen R. Covey
 6. Leaders Eat Last - Simon Sinek
@@ -268,9 +268,8 @@ Examples:
 
 **Yes / No**
 
-Answer:
+Answer: Yes
 
-Yes
 ---
 
 ## Step 2: Your 5-Month Routine + Focus Blocks
