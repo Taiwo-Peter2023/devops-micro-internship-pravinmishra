@@ -34,7 +34,8 @@ Analyze the configuration differences between the three agents and demonstrate u
 
 Add your answer here...
 
---- 1. Why does the cost optimizer use Haiku instead of Sonnet?
+--- 
+Why does the cost optimizer use Haiku instead of Sonnet?
 The Cost Optimizer uses Haiku because its tasks are generally:
 Parsing Terraform configurations
 Identifying cost-saving opportunities
@@ -75,7 +76,8 @@ This makes the agent safer and reduces the risk of unintended or unauthorized ch
 
 Add your answer here...
 
----  The tf-writer is responsible for generating or modifying Terraform code, so it benefits from using whichever model is configured as the system's default.
+---  
+The tf-writer is responsible for generating or modifying Terraform code, so it benefits from using whichever model is configured as the system's default.
 
 Using:
 
