@@ -79,6 +79,10 @@ Each task must be completed sequentially.
 **Screenshots Required:**
 - Screenshot 1 — GitHub token creation page showing the selected scopes (`repo`, `read:user`) — token value must NOT be visible
 
+![alt text](GitHubPAT-User.png) 
+
+![alt text](GitHubPAT-Repo.png)
+
 ---
 
 ### Task 2 — Create .mcp.json at the Project Root
@@ -108,6 +112,7 @@ Each task must be completed sequentially.
 **Screenshots Required:**
 - Screenshot 2 — `.mcp.json` open in VS Code showing the full configuration
 
+![alt text](mcp-json.png)
 ---
 
 ### Task 3 — Add Your Token to settings.local.json
@@ -135,6 +140,7 @@ Each task must be completed sequentially.
 **Screenshots Required:**
 - Screenshot 3 — `settings.local.json` open in VS Code showing the `env` section — **blur or cover the actual GitHub token value**
 
+![alt text](setting-local-mcp-json.png)
 ---
 
 ### Task 4 — Verify the Connection with /mcp
