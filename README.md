@@ -131,7 +131,7 @@ Week 03 → Linux & Bash for DevOps
 | Week | Topic | Status | Assignment | LinkedIn Post | Blog Post |
 |------|-------|--------|------------|---------------|-----------|
 | 00 | Internet & Networking Basics | Completed | Completed | https://www.linkedin.com/posts/taiwo-olatunji-661857231_devops-learning-summary-week-highlights-activity-7404475285343285248-uC89?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAADn39-kBzug334WySSqiA2rMPD8PZeDdpGE | — |
-| 01 | Success Mindset | Completed | Submitted | https://www.linkedin.com/posts/taiwo-olatunji-661857231_what-my-20-version-looked-like-when-people-share-7478914698294407168-ydj0/?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAADn39-kBzug334WySSqiA2rMPD8PZeDdpGE | Completed | https://petatechscom.wordpress.com/2026/07/02/what-my-2-0-version-looked-like |
+| 01 | Success Mindset | Completed | Submitted | https://www.linkedin.com/posts/taiwo-olatunji-661857231_what-my-20-version-looked-like-when-people-share-7478914698294407168-ydj0/?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAADn39-kBzug334WySSqiA2rMPD8PZeDdpGE | Completed | https://medium.com/@taiwopeter2018/what-my-2-0-version-looked-like-d1bec3da4172 |
 | 02 | Agentic AI with Claude Code | ⬜ Not Started | ⏳ Pending | — | — |
 | 03 | Linux & Bash for DevOps | ⬜ Not Started | ⏳ Pending | — | — |
 | 04 | Git & GitHub | ⬜ Not Started | ⏳ Pending | — | — |
