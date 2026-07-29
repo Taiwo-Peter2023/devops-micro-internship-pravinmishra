@@ -161,7 +161,7 @@ Each task must be completed sequentially.
 
 **Screenshots Required:**
 - Screenshot 4 — `/mcp` output showing `github: connected`
-
+![alt text](mcp-connected.png)
 ---
 
 ### Task 5 — Run a Live GitHub Query
@@ -182,7 +182,7 @@ List all my GitHub repositories.
 
 **Screenshots Required:**
 - Screenshot 5 — Claude's response showing your real GitHub repositories (you may blur individual repo names if preferred)
-
+![alt text](<claudeRespondGitHub Repo.png>)
 ---
 
 ## 8. Industry Insight

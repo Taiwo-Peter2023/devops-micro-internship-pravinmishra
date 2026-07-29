@@ -85,6 +85,11 @@ claude
 - Screenshot 1 — Terminal showing `claude --version` with the version number visible
 - Screenshot 2 — Claude Code authenticated and showing the terminal prompt (your name visible)
 
+Add your screenshot here.
+![alt text](claude_code_version.png)
+
+![alt text](claude_terminal.png)
+
 ---
 
 ### Task 2 — Fork and Clone the Starter Repository
@@ -108,6 +113,7 @@ code .
 
 **Screenshots Required:**
 - Screenshot 3 — VS Code with the project open, file tree visible showing `index.html`, `style.css`, `images/`
+![alt text](starter_repository.png)
 
 ---
 
@@ -137,6 +143,8 @@ How many lines of CSS does this project have?
 - Screenshot 5 — Claude's response to the second question, showing it ran a command and reported the line count
 
 ---
+![alt text](claude_reading_file.png)
+![alt text](css_line.png)
 
 ## 8. Industry Insight
 
@@ -152,6 +160,7 @@ Your submission must include:
 - All 5 required screenshots
 - Your GitHub forked repository URL
 
+`https://github.com/Taiwo-Peter2023/Ultimate-Agentic-DevOps-with-Claude-Code`
 ---
 
 ## 10. Solution Walkthrough

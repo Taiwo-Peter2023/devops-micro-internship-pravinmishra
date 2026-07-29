@@ -91,6 +91,7 @@ Each task must be completed sequentially.
 **Screenshots Required:**
 - Screenshot 1 — `settings.json` open in VS Code showing the full permissions configuration
 
+![alt text](setting-json.png)
 ---
 
 ### Task 2 — Add the UserPromptSubmit Hook
@@ -124,7 +125,7 @@ Each task must be completed sequentially.
 
 **Screenshots Required:**
 - Screenshot 2 — `settings.json` showing the hooks section with the UserPromptSubmit hook
-
+![alt text](hooks.png)
 ---
 
 ### Task 3 — Add the PreToolUse Hook
@@ -138,13 +139,13 @@ Each task must be completed sequentially.
 
 **Add PreToolUse inside the existing hooks section:**
 ```json
-"PreToolUse": [
+PreToolUse": [
   {
     "matcher": "Bash",
     "hooks": [
       {
         "type": "command",
-        "command": "python3 -c \"import sys, json\ndata = json.load(sys.stdin)\ncmd = data.get('command', '').lower()\nblocked = ['terraform destroy', 'aws s3 rm']\nif any(b in cmd for b in blocked):\n    print('BLOCKED: Dangerous command intercepted', file=sys.stderr)\n    sys.exit(1)\n\""
+        "command": "python3 -c \"import sys, json\ndata = json.load"(sys.stdin)\ncmd = data.get('command', '').lower()\nblocked = ['terraform destroy', 'aws s3 rm']\nif any(b in cmd for b in blocked):\n    print('BLOCKED: Dangerous command intercepted', file=sys.stderr)\n    sys.exit(1)\n\""
       }
     ]
   }
@@ -155,7 +156,7 @@ Each task must be completed sequentially.
 
 **Screenshots Required:**
 - Screenshot 3 — Full `settings.json` showing all three sections complete 
-
+![alt text](3-hooks.png)
 ---
 
 ### Task 4 — Test the UserPromptSubmit Hook
@@ -177,7 +178,7 @@ delete all files in the terraform folder
 
 **Screenshots Required:**
 - Screenshot 4 — The blocked result showing the hook intercepted the destructive prompt
-
+![alt text](hookerror.png)
 ---
 
 ### Task 5 — Test the PreToolUse Hook
@@ -199,7 +200,8 @@ Run terraform destroy in the terraform folder.
 **Screenshots Required:**
 - Screenshot 5 — Claude's session showing the PreToolUse hook blocked the terraform destroy command
 
----
+![alt text](<tf-destroy failed.png>)
+---aude
 
 ## 8. Industry Insight
 

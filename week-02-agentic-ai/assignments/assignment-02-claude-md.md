@@ -79,6 +79,9 @@ What is this project and how should I deploy it?
 **Screenshots Required:**
 - Screenshot 1 — Claude’s generic response before CLAUDE.md exists (project contains only index.html, style.css and images/)
 
+
+![alt text](before-claude-md.png)
+
 ---
 
 ### Task 2 — Generate an initial CLAUDE.md using /init and review the auto-generated content in VS Code.
@@ -100,6 +103,7 @@ What is this project and how should I deploy it?
 **Screenshots Required:**
 - Screenshot 2 — The auto-generated CLAUDE.md open in VS Code showing its content
 
+![alt text](init.png)
 ---
 
 ### Task 3 — Customize the CLAUDE.md
@@ -126,6 +130,7 @@ What is this project and how should I deploy it?
 **Screenshots Required:**
 - Screenshot 3 — Your customized CLAUDE.md in VS Code showing all 5 sections (scroll to show the full file)
 
+![alt text](claudemd.png)
 ---
 
 ### Task 4 — Test the After State
@@ -153,6 +158,9 @@ Add a React component to the homepage.
 - Screenshot 5 — Claude refusing or warning against adding React because of the "No JavaScript" convention defined in CLAUDE.md
 
 ---
+![alt text](clauderesponseaftercluaude-md.png)
+
+![alt text](ClaudeRejectReactComponent.png)
 
 ## 8. Industry Insight
 
@@ -168,6 +176,7 @@ Your submission must include:
 - All 5 required screenshots
 - Your GitHub repo URL (CLAUDE.md should be committed)
 
+(https://github.com/Taiwo-Peter2023/Ultimate-Agentic-DevOps-with-Claude-Code.git)
 ---
 
 ## 10. Solution Walkthrough

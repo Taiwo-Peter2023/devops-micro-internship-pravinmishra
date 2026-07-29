@@ -79,8 +79,8 @@ mkdir -p .claude/skills/deploy
 
 **Screenshots Required:**
 - Screenshot 1 — VS Code sidebar showing `.claude/skills/` folder with all 4 subfolders visible
-
 ---
+![alt text](Ass3Task1.png)
 
 ### Task 2 — Add the Skill Files
 
@@ -102,6 +102,9 @@ mkdir -p .claude/skills/deploy
 - Screenshot 2 — `.claude/skills/scaffold-terraform/` open in VS Code showing both `SKILL.md` and `template-spec.md`
 - Screenshot 3 — `tf-plan/SKILL.md` frontmatter showing `allowed-tools: Bash, Read, Grep` (no Write) and `disable-model-invocation: true`
 ---
+![alt text](Ass3Task2.png)
+
+![Screenshot3](tf_plan1.png)
 
 ### Task 3 — Run /scaffold-terraform
 
@@ -125,6 +128,12 @@ mkdir -p .claude/skills/deploy
 - Screenshot 5 — VS Code sidebar showing the `terraform/` folder with all generated files inside
 
 ---
+![Screenshot4a](scaffold-tf1.png)
+
+![Screenshot4b](scaffold-tf2.png)
+
+---
+ ![screenshot5](tf_init.png)
 
 ### Task 4 — Run terraform init then /tf-plan
 
@@ -154,6 +163,7 @@ Then in Claude Code:
 - Screenshot 6 — Claude's `/tf-plan` response showing it ran the command and analyzed the result (pass or auth error both count)
 
 ---
+![alt text](tf_plan2.png)
 
 ## 8. Industry Insight
 
@@ -170,6 +180,9 @@ Your submission must include:
 - Your GitHub repo URL (skills committed and visible)
 
 ---
+`https://github.com/Taiwo-Peter2023/devops-micro-internship-pravinmishra.git`
+
+`https://github.com/Taiwo-Peter2023/Ultimate-Agentic-DevOps-with-Claude-Code.git`
 
 ## 10. Solution Walkthrough
 

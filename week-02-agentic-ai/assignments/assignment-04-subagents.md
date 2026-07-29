@@ -77,6 +77,7 @@ mkdir -p .claude/agents
 **Screenshots Required:**
 - Screenshot 1 — VS Code sidebar showing `.claude/agents/` with all 3 files
 
+![alt text](Agents3Files.png)
 ---
 
 ### Task 2 — Compare the Agent Configurations
@@ -91,14 +92,89 @@ mkdir -p .claude/agents
    - Why does the cost optimizer use Haiku instead of Sonnet?
    - Why does the security auditor NOT have Write in its tools list?
    - Why does the tf-writer use `inherit` instead of a specific model?
+   ---
+The Cost Optimizer uses Haiku because its tasks are generally:
+Parsing Terraform configurations
+Identifying cost-saving opportunities
+Comparing resource configurations
+Producing concise recommendations
+These tasks are mostly pattern matching and rule-based analysis, which do not require the deeper reasoning capabilities of Sonnet.
+Using Haiku provides several benefits:
+Lower cost per request
+Faster responses
+Sufficient intelligence for straightforward optimization tasks
+If every agent used Sonnet, operating costs would increase without significantly improving the quality of cost optimization recommendations.
 
 **Expected Output:** 3 written answers in your GitHub Repository folder showing you understand the design decisions behind each agent.
+
+---
+   
+ The Security Auditor is intended to analyze, inspect, and report security issues—not modify infrastructure.
+
+Removing the Write tool follows the principle of least privilege, meaning an agent should only receive the permissions it actually needs.
+
+Without the Write tool, the security auditor can:
+
+Read Terraform files
+Identify vulnerabilities
+Produce recommendations
+
+But it cannot:
+
+Modify Terraform code
+Accidentally introduce changes
+Overwrite infrastructure configurations
+
+This makes the agent safer and reduces the risk of unintended or unauthorized changes.
+
+---
+The Security Auditor is intended to analyze, inspect, and report security issues—not modify infrastructure.
+
+Removing the Write tool follows the principle of least privilege, meaning an agent should only receive the permissions it actually needs.
+
+Without the Write tool, the security auditor can:
+
+Read Terraform files
+Identify vulnerabilities
+Produce recommendations
+
+But it cannot:
+
+Modify Terraform code
+Accidentally introduce changes
+Overwrite infrastructure configurations
+
+This makes the agent safer and reduces the risk of unintended or unauthorized changes.
+---
+
+#### Why does the tf-writer use `inherit` instead of a specific model?
+
+---  
+The tf-writer is responsible for generating or modifying Terraform code, so it benefits from using whichever model is configured as the system's default.
+
+Using:
+
+model: inherit
+
+instead of specifying a model (such as Sonnet or Haiku) provides several advantages:
+
+Automatically uses the project's configured default model.
+Makes the configuration easier to maintain because changing the default model updates all inheriting agents.
+Allows users or administrators to upgrade models without editing every agent configuration.
+Keeps the agent portable across environments with different default model preferences.
+---
 
 **Screenshots Required:**
 - Screenshot 2 — `security-auditor.md` frontmatter showing model and tools configuration
 - Screenshot 3 — `cost-optimizer.md` frontmatter showing the model and tools configuration
-
 ---
+ ![alt text](SecurityAudit1-1.png)
+ ![alt text](SecAud2.png)
+
+![alt text](CostAudit1-1.png)
+
+
+
 
 ### Task 3 — Run the Security Auditor
 
@@ -122,6 +198,13 @@ Audit my Terraform files for security issues.
 - Screenshot 5 — The full security audit report with findings visible
 
 ---
+![alt text](Secoutput1.png) 
+![alt text](securityAudit.png) 
+![alt text](SecurityAudit1.png) 
+![alt text](SecurityAudit1-1-1.png) 
+![alt text](SecurityReview.png)
+![alt text](SecAud2-1.png) 
+
 
 ### Task 4 — Run the Cost Optimizer
 
@@ -143,6 +226,12 @@ Review my Terraform infrastructure for cost optimization.
 - Screenshot 6 — The full cost optimization report
 
 ---
+![alt text](costOptimizer.png) 
+![alt text](costaud4.png) 
+![alt text](CostAud5.png) 
+![alt text](CostAudit1-2.png) 
+![alt text](CostAudit2.png) 
+![alt text](CostAudit3.png)
 
 ## 8. Industry Insight
 
@@ -163,6 +252,16 @@ Submit only a Google Doc link.
 Follow the Assignment Submission Guidelines — (LINK)
 
 ---
+https://docs.google.com/document/d/1Ou3cvVqf93xzU7nMhG56OCFs7LwxwVpP3MW38hxWDMs/edit?usp=sharing
+
+https://docs.google.com/document/d/11VbIbEM3XOiqwid4LVcFNZ15JtRcAv0ZCmQnPpTBUJo/edit?usp=sharing
+
+https://docs.google.com/document/d/1H-ZUtbBdsjfUIQw97JQoy2DhIKkzEeYiw8JOfXU-sDQ/edit?usp=sharing
+---
+
+`https://github.com/Taiwo-Peter2023/Ultimate-Agentic-DevOps-with-Claude-Code.git`
+
+`https://github.com/Taiwo-Peter2023/devops-micro-internship-pravinmishra.git`
 
 ## 10. Solution Walkthrough
 
