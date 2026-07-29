@@ -78,6 +78,7 @@ Where does your memory file live for this project? Show me the full path.
 - Screenshot 1 — Claude's response showing the full memory file path
 
 ---
+![alt text](Ass7T1.png)
 
 ### Task 2 — Give Claude Information to Remember
 
@@ -100,6 +101,8 @@ Remember the following for all future sessions: The CSS hero section uses a dark
 - Screenshot 3 — The `MEMORY.md` file open in VS Code showing the saved content
 
 ---
+![alt text](memory-md.png) 
+![alt text](ClaudeMemoryConfirm.png)
 
 ### Task 3 — Close the Session Completely
 
@@ -152,7 +155,8 @@ Should I add a JavaScript animation to the hero section?
 - Screenshot 6 — Claude refusing to add JavaScript (memory rule enforced in the new session)
 
 ---
-
+![alt text](claaudeRecall.png)
+![alt text](noJS.png) 
 ## 8. Industry Insight
 
 The 200-line limit on the memory file is not a bug — it is a design decision. The first 200 lines load into every session automatically. If you fill memory with noise, you waste the space that should hold the things that actually matter. Professional engineers treat their memory files like a curated knowledge base: they add deliberately, prune regularly, and keep entries short and actionable. The same discipline that makes a good runbook makes a good memory file.
@@ -168,6 +172,9 @@ Your submission must include:
 - Your GitHub repo URL
 - 
 ---
+`https://github.com/Taiwo-Peter2023/Ultimate-Agentic-DevOps-with-Claude-Code.git`
+
+`https://github.com/Taiwo-Peter2023/devops-micro-internship-pravinmishra.git`
 
 ## 10. Solution Walkthrough
 

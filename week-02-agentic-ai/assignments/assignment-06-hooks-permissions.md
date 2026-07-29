@@ -218,6 +218,9 @@ Your submission must include:
 - Your GitHub repo URL (`settings.json` committed and visible)
 
 ---
+`https://github.com/Taiwo-Peter2023/Ultimate-Agentic-DevOps-with-Claude-Code.git`
+
+`https://github.com/Taiwo-Peter2023/devops-micro-internship-pravinmishra.git`
 
 ## 10. Solution Walkthrough
 

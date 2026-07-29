@@ -201,6 +201,9 @@ Your submission must include:
 - Your GitHub repo URL (`.mcp.json` committed and visible, `settings.local.json` NOT committed)
 
 ---
+`https://github.com/Taiwo-Peter2023/Ultimate-Agentic-DevOps-with-Claude-Code.git`
+
+`https://github.com/Taiwo-Peter2023/devops-micro-internship-pravinmishra.git`
 
 ## 10. Solution Walkthrough
 
