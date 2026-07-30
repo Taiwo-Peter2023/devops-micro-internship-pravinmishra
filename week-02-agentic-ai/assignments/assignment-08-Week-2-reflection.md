@@ -220,11 +220,15 @@ Hashtags:
 
 ---
 
+
 ## 11. Submission Instructions
 
 Submit the GitHub Repo Link. 
 
 ---
+`https://github.com/Taiwo-Peter2023/Ultimate-Agentic-DevOps-with-Claude-Code.git`
+
+`https://github.com/Taiwo-Peter2023/devops-micro-internship-pravinmishra.git`
 
 ## 12. Completion Checklist
 
