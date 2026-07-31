@@ -112,6 +112,20 @@ For example, you can write about:
 * How memory helps make the workflow more consistent
 
 ---
+The biggest technical insight I got this weeek is the integration, automation and authentication of agentic AI by using claude code.
+The Claude code follow an agentic loop by reading and understanding the file directories. 
+By initializing the cluade code using the command "claude init", CLAUDE.MD helps to control AI behaviour
+
+Skills turn long prompt to resusable slash commands inorder to avoid time spending in writing prompt for claude to understand
+Tools restrictions matter a lot in order to damage or loss in a production environment
+How subagents help divide work
+
+MCP adds to an AI-power devops workflow by integrating github with the MCP Server. The main objective is to access the github repositories for authentication and connection
+
+Hooks and permissions are important for safety
+
+memory helps make the workflow more consistent
+
 
 #### 2. Biggest insight I got about myself this week
 
