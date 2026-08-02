@@ -112,19 +112,9 @@ For example, you can write about:
 * How memory helps make the workflow more consistent
 
 ---
-The biggest technical insight I got this weeek is the integration, automation and authentication of agentic AI by using claude code.
-The Claude code follow an agentic loop by reading and understanding the file directories. 
-By initializing the cluade code using the command "claude init", CLAUDE.MD helps to control AI behaviour
+`The biggest technical insight I got this weeek is the integration, automation and authentication of agentic AI by using claude code. The Claude code follow an agentic loop by reading and understanding the file directories. By initializing the cluade code using the command "claude init", CLAUDE.MD helps to control AI behaviour. Skills turn long prompt to resusable slash commands inorder to avoid time spending in writing prompt for claude to understand. Tools restrictions matter a lot in order to damage or loss in a production environment. MCP adds to an AI-power devops workflow by integrating github with the MCP Server. The main objective is to access the github repositories for authentication and connection Hooks and permissions are important for safety. Memory helps the workflow to be more consistent by storing the the project file in memory.md`
 
-Skills turn long prompt to resusable slash commands inorder to avoid time spending in writing prompt for claude to understand
-Tools restrictions matter a lot in order to damage or loss in a production environment
-How subagents help divide work
 
-MCP adds to an AI-power devops workflow by integrating github with the MCP Server. The main objective is to access the github repositories for authentication and connection
-
-Hooks and permissions are important for safety
-
-memory helps make the workflow more consistent
 
 
 #### 2. Biggest insight I got about myself this week
@@ -139,6 +129,8 @@ For example:
 * Did you realize documentation is part of engineering?
 
 ---
+`What I noticed about my learning style this is understanding of the main concept by following the given instruction.I don't get stuck because I followed all the details given. Learning is done better by practical work in the lab environnment. I am very confident in using the terminal commands. Documentation is very important part of engineering because it help in troubleshooting error and serve as roadmap for anyone that might still work on theb same project`
+
 
 #### 3. My biggest weakness or loop I noticed
 
@@ -153,6 +145,9 @@ For example:
 * I do not commit changes regularly
 
 ---
+`The loop I noticed during this project is merging to the main stream`
+
+
 
 #### 4. One system I will implement from this week
 
@@ -169,6 +164,7 @@ Example:
 > Before starting every assignment, I will create a checklist in my notebook and verify each screenshot requirement before moving to the next task. I will do this every evening before my study session so that I do not miss proof during submission.
 
 ---
+`The habit I planned to implement is doing each task early rather than wasting time on it.`
 
 #### 5. What I learned about Agentic AI and DevOps
 
@@ -184,6 +180,7 @@ You may include points like:
 * Human review is still important
 
 ---
+`What I learned about agentic AI and DevOps is that it allow integration and automation to to be done smoothly. It is very reliable efficient because it makes the work more faster. It work based on given command and set of rules given to it. `
 
 #### 6. My Week 2 highlight
 
@@ -199,6 +196,7 @@ Examples:
 * Fixing an error by reading the output carefully
 
 ---
+The moment I am proud of is how cluade was implemented in the workflow. claude read and understand the entire files in in the working directory.
 
 ## 9. Minimum Requirements
 
@@ -213,6 +211,7 @@ Your reflection blog must include:
 * Blog/document link must be publicly viewable or accessible to reviewers
 
 ---
+`https://medium.com/@taiwopeter2018/reflection-week-2-one-insight-that-changed-how-i-think-about-ai-assisted-development-2ed40abff3e3?sharedUserId=taiwopeter2018`
 
 ## 10. LinkedIn Post Requirement
 
@@ -232,7 +231,10 @@ Hashtags:
 
 #DMIByPravinMishra #AgenticAI #ClaudeCode #DevOps #LearningInPublic
 
+`https://medium.com/@taiwopeter2018/reflection-week-2-one-insight-that-changed-how-i-think-about-ai-assisted-development-2ed40abff3e3?sharedUserId=taiwopeter2018`
 ---
+
+`https://medium.com/@taiwopeter2018/reflection-week-2-one-insight-that-changed-how-i-think-about-ai-assisted-development-2ed40abff3e3?sharedUserId=taiwopeter2018`
 
 
 ## 11. Submission Instructions
