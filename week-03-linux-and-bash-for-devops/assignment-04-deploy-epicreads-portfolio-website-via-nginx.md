@@ -36,6 +36,7 @@ Download and extract the portfolio website template.
 #### Screenshot 1 — Output of `ls -la` showing the extracted project folder
 
 Add your screenshot here.
+<img width="596" height="232" alt="ls-la" src="https://github.com/user-attachments/assets/86ead41d-e8a2-487c-8003-896b393370d3" />
 
 ---
 
@@ -50,6 +51,7 @@ Update the website footer with your deployment details.
 #### Screenshot 2 — Nano editor open with the updated footer showing your Full Name, Group, Week, and Date
 
 Add your screenshot here.
+<img width="974" height="294" alt="footer" src="https://github.com/user-attachments/assets/2de4f05b-9b04-4a99-be3c-d709cf186de6" />
 
 ---
 
@@ -64,12 +66,15 @@ Deploy the portfolio website to the Nginx web root.
 #### Screenshot 3 — Output of `sudo nginx -t` showing configuration test successful
 
 Add your screenshot here.
+<img width="630" height="67" alt="-ttt" src="https://github.com/user-attachments/assets/b424c3b1-7dee-4814-b938-c2b63215b6c8" />
 
 ---
 
 #### Screenshot 4 — Output of `ls /var/www/html` showing deployed website files
 
 Add your screenshot here.
+<img width="805" height="107" alt="ls-var-www-html" src="https://github.com/user-attachments/assets/7aad85cc-553b-4b91-a47b-bd420c65e446" />
+
 
 ---
 
@@ -84,12 +89,14 @@ Verify the deployed website is publicly accessible and the footer contains your 
 #### Screenshot 5 — Output of `curl ifconfig.me` showing the server's public IP address
 
 Add your screenshot here.
+<img width="663" height="48" alt="curl-ifconfigme" src="https://github.com/user-attachments/assets/e569af33-96d0-4ff7-a17b-75cead2afe55" />
 
 ---
 
 #### Screenshot 6 — Browser showing the live website with your Full Name and deployment details in the footer
 
 Add your screenshot here.
+<img width="774" height="187" alt="deployby" src="https://github.com/user-attachments/assets/992158a0-0c23-4f6c-80f1-871049a2e7e1" />
 
 ---
 
@@ -104,12 +111,14 @@ Verify the deployed website and Nginx service are healthy.
 #### Screenshot 7 — Output of `systemctl is-enabled nginx`
 
 Add your screenshot here.
+<img width="782" height="63" alt="is-enabled" src="https://github.com/user-attachments/assets/9cc3d31c-4381-4f53-89c4-24568ec0c092" />
 
 ---
 
 #### Screenshot 8 — Output of `curl -I http://localhost` showing 200 OK
 
 Add your screenshot here.
+<img width="772" height="184" alt="curl-I-http" src="https://github.com/user-attachments/assets/1c473ee5-8e04-40e4-a5d2-20e95cafd0e3" />
 
 ---
 
