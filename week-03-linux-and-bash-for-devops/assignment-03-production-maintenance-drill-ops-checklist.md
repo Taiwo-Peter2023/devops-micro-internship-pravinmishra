@@ -49,19 +49,19 @@ Answer the following in your own words:
 **1. What proves Nginx is listening on 0.0.0.0:80?**
 
 Write your answer here.
-
+`The prove that NGINX is listing on 0.0.0.0:80 it allows traffic to access the public IP using HTTP protocol on the web browser `
 ---
 
 **2. What proves SSH is active on port 22?**
 
 Write your answer here.
-
+`The prove that SSH is active on port 22 is because the AWS resouces can be access on any terminal via key pair. The downloaded key pair must be the terminal directory in order to access it`
 ---
 
 **3. Did you find any unexpected open ports? Explain briefly.**
 
 Write your answer here.
-
+`No unexpected open port`
 ---
 
 # Task 2 — Service Health & Systemd Validation (Nginx)
@@ -99,11 +99,12 @@ Answer the following in your own words:
 Write your answer here.
 
 ---
+`When NGINX fails to restart in production, the public IP via the web browser won't be accessible`
 
 **2. What's your basic rollback plan?**
 
 Write your answer here.
-
+`My rollback plan is working devops project every week`
 ---
 
 # Task 3 — Logs & Request Trace
