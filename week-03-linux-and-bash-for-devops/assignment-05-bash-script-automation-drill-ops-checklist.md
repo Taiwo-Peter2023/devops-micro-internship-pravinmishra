@@ -21,13 +21,17 @@ Verify that Bash is available on your system and create a clean workspace for th
 #### Screenshot 1 — Output of `echo $SHELL` and `bash --version`
 
 Add your screenshot here.
+![alt text](echo-shell.png)
 
----
+![alt text](bash--version-1.png)
 
 #### Screenshot 2 — Output of `pwd` and `ls -lah` showing the scripts directory
 
 Add your screenshot here.
+![alt text](pwd-week5.png) 
+![alt text](ls-lhw-week5.png)
 
+![alt text](pwd.png)
 ---
 
 ### Notes
@@ -37,19 +41,19 @@ Answer the following in your own words:
 **1. What is Bash?**
 
 Add your answer here.
-
+`Bash is a command-line shell and programming language used to interact with unix-like operating systems through text based commands and automations scripts`
 ---
 
 **2. What is the difference between shell and Bash?**
 
 Add your answer here.
-
+`Shell is a broad category of programs while Bash is one specific product within that category`
 ---
 
 **3. Why is it important to confirm the Bash version before writing scripts?**
 
 Add your answer here.
-
+`Confirming the bash version will ensure the scripts run correcting without unexpected crashes, as different versions support different feutures.`
 ---
 
 # Task 2 — Your First Bash Script
