@@ -23,12 +23,14 @@ Create the footer Story (`Add footer with version and deploy date`, 1 point, `fr
 Add your screenshot here.
 
 ---
+<img width="583" height="338" alt="image" src="https://github.com/user-attachments/assets/78da96ff-318d-4cb7-91b2-2f97fa04b1ed" />
 
 #### Screenshot 2 — Active Sprint board showing the Sprint Goal
 
 Add your screenshot here.
 
 ---
+<img width="483" height="170" alt="image" src="https://github.com/user-attachments/assets/84f46bb3-ef04-441e-817a-b74974df7f5e" />
 
 # Task 2 — Day 1: Implement the Footer, Commit, and Deploy
 
@@ -41,26 +43,34 @@ Add the required footer text (`Portfolio v1.0 — Deployed on <DD Mon YYYY> — 
 #### Screenshot 3 — Jira board showing the Day 1 Sub-task in Done
 
 Add your screenshot here.
+<img width="584" height="325" alt="day1_done" src="https://github.com/user-attachments/assets/39392c30-97e6-475f-8682-6be177ad0f89" />
 
 ---
+<img width="584" height="325" alt="day1_done" src="https://github.com/user-attachments/assets/0a79b374-54c3-4f4d-b582-e754898ae025" />
 
 #### Screenshot 4 — Successful Git commit output
 
 Add your screenshot here.
+<img width="644" height="78" alt="git_commit" src="https://github.com/user-attachments/assets/849bac31-3d4b-423a-b583-9c9283916833" />
 
 ---
+<img width="644" height="78" alt="git_commit" src="https://github.com/user-attachments/assets/06b0e95f-51e3-469d-a1eb-aeb0391082fe" />
 
 #### Screenshot 5 — EC2 browser view showing the complete footer text, with the URL visible
 
 Add your screenshot here.
+<img width="1592" height="821" alt="ec2-url-jira-project" src="https://github.com/user-attachments/assets/dcde3c8c-60ad-4518-8d68-3440a5afd09a" />
 
 ---
+<img width="1592" height="821" alt="ec2-url-jira-project" src="https://github.com/user-attachments/assets/7666e930-1d52-4057-8d26-7a6532e5ed7a" />
 
 #### Screenshot 6 — Jira Story comment showing the Day 1 Daily Scrum update
 
 Add your screenshot here.
+<img width="364" height="710" alt="Day1_comment" src="https://github.com/user-attachments/assets/0f2c6c91-68a7-41b0-8a88-98b58de7cecb" />
 
 ---
+<img width="364" height="710" alt="Day1_comment" src="https://github.com/user-attachments/assets/8b526327-97c7-4daa-a4ab-30854d14efba" />
 
 # Task 3 — Day 2: Make the Deploy Date Dynamic and Document It
 
