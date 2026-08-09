@@ -79,11 +79,11 @@ Week 02 → Agentic AI with Claude Code
 Week 03 → Linux & Bash for DevOps
 [![Week 03 – Linux & Bash](./badges/week-03.svg)](./week-03-linux-and-bash-for-devops/)
 
-<!-- Week 04 → Git & GitHub -->
-<!-- [![Week 04 – Git](./badges/week-04.svg)](./week-04-github/) -->
+Week 04 → Git & GitHub
+[![Week 04 – Git](./badges/week-04.svg)](./week-04-github/)
 
-<!-- Week 05 → DevOps Lifecycle & Agile -->
-<!-- [![Week 05 – Agile](./badges/week-05.svg)](./week-05-devops-lifecycle/) -->
+Week 05 → DevOps Lifecycle & Agile
+[![Week 05 – Agile](./badges/week-05.svg)](./week-05-devops-lifecycle/)
 
 <!-- Week 06 → AWS Cloud -->
 <!-- [![Week 06 – AWS](./badges/week-06.svg)](./week-06-aws-cloud/) -->
@@ -133,9 +133,9 @@ Week 03 → Linux & Bash for DevOps
 | 00 | Internet & Networking Basics | Completed | Completed | https://www.linkedin.com/posts/taiwo-olatunji-661857231_devops-learning-summary-week-highlights-activity-7404475285343285248-uC89?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAADn39-kBzug334WySSqiA2rMPD8PZeDdpGE |
 | 01 | Success Mindset | Completed | Completed | https://www.linkedin.com/posts/taiwo-olatunji-661857231_what-my-20-version-looked-like-when-people-share-7478914698294407168-ydj0/?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAADn39-kBzug334WySSqiA2rMPD8PZeDdpGE | https://medium.com/@taiwopeter2018/what-my-2-0-version-looked-like-d1bec3da4172 |
 | 02 | Agentic AI with Claude Code | Completed | Completed | https://medium.com/@taiwopeter2018/reflection-week-2-one-insight-that-changed-how-i-think-about-ai-assisted-development-2ed40abff3e3?sharedUserId=taiwopeter2018 | https://medium.com/@taiwopeter2018/reflection-week-2-one-insight-that-changed-how-i-think-about-ai-assisted-development-2ed40abff3e3?sharedUserId=taiwopeter2018 |
-| 03 | Linux & Bash for DevOps | Started | ⏳ Pending | https://www.linkedin.com/posts/taiwo-olatunji-661857231_devops-linux-nginx-activity-7417169153838665729-yH5L?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAADn39-kBzug334WySSqiA2rMPD8PZeDdpGE | https://www.linkedin.com/posts/taiwo-olatunji-661857231_devops-linux-nginx-activity-7417169153838665729-yH5L?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAADn39-kBzug334WySSqiA2rMPD8PZeDdpGE |
+| 03 | Linux & Bash for DevOps | Completed | ⏳ Completed | https://www.linkedin.com/posts/taiwo-olatunji-661857231_devops-linux-nginx-activity-7417169153838665729-yH5L?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAADn39-kBzug334WySSqiA2rMPD8PZeDdpGE | https://www.linkedin.com/posts/taiwo-olatunji-661857231_devops-linux-nginx-activity-7417169153838665729-yH5L?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAADn39-kBzug334WySSqiA2rMPD8PZeDdpGE |
 | 04 | Git & GitHub | ⬜ Pending | ⏳ Pending | — | — |
-| 05 | DevOps Lifecycle & Agile | ⬜ Not Started | ⏳ Pending | — | — |
+| 05 | DevOps Lifecycle & Agile | ⬜ Completed | ⏳ Completed | — | — |
 | 06 | AWS Cloud | ⬜ Not Started | ⏳ Pending | — | — |
 | 07 | Azure Cloud | ⬜ Not Started | ⏳ Pending | — | — |
 | 08 | Terraform | ⬜ Not Started | ⏳ Pending | — | — |
