@@ -229,25 +229,28 @@ Answer the following in your own words:
 **1. What is a loop?**
 
 Add your answer here.
-
+A loop is a programming tool that repeats a block of code multiple times. Instead of writing the same line of code over and over, you write it once inside a loop and tell the computer how many times to run it.Loops stop automatically once a specific condition is met.
 ---
 
 **2. Why do we use loops in Bash scripting?**
 
 Add your answer here.
 
+Loops are the backbone of automation because computers excel at doing the exact same task repeatedly without making mistakes.
 ---
 
 **3. How many times did the loop run in your script?**
 
 Add your answer here.
 
+5 times
 ---
 
 **4. What would you change if you wanted the loop to run 10 times?**
 
 Add your answer here.
 
+I will increase the number in the for loop to 10
 ---
 
 # Task 6 — Files & Conditionals: File Validation Script
