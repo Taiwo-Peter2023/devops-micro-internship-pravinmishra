@@ -283,25 +283,25 @@ Answer the following in your own words:
 **1. What does `-d` check in Bash?**
 
 Add your answer here.
-
+`In Bash, -d checks if a specific path exists and is a directory`
 ---
 
 **2. What does `-f` check in Bash?**
 
 Add your answer here.
-
+`In Bash, -f checks if a specific path exists and is a regular file exists`
 ---
 
 **3. Why should file and directory paths be stored in variables?**
 
 Add your answer here.
-
+`Storing paths in variables makes Bash scripts easier to maintain, read, and reuse.`
 ---
 
 **4. What happens if the file does not exist?**
 
 Add your answer here.
-
+`If the file does not exist, the -f check simply evaluates to false, and the script skips the code inside that if block and then execute the code in the else block. It will not throw an error or crash the script.`
 ---
 
 # Task 7 — Conditionals: Pass or Retry Script
@@ -315,25 +315,25 @@ Use if-else conditionals to make decisions based on a variable value.
 #### Screenshot 1 — Content of `score-check.sh` with `score=85`
 
 Add your screenshot here.
-
+![alt text](score-sh-content.png)
 ---
 
 #### Screenshot 2 — Output showing `Result: Pass`
 
 Add your screenshot here.
-
+![alt text](pass.png)
 ---
 
 #### Screenshot 3 — Content of `score-check.sh` with `score=55`
 
 Add your screenshot here.
-
+![alt text](score-check55.png)
 ---
 
 #### Screenshot 4 — Output showing `Result: Retry`
 
 Add your screenshot here.
-
+![alt text](retry.png)
 ---
 
 ### Notes
@@ -343,25 +343,25 @@ Answer the following in your own words:
 **1. What is the purpose of if-else in Bash?**
 
 Add your answer here.
-
+`The purpose of if-else in Bash is to make decisions in the script. It lets the script run different commands based on whether a condition is true or false.`
 ---
 
 **2. What does `-ge` mean?**
 
 Add your answer here.
-
+`In Bash, -ge means greater than or equal to. It is an operator used specifically to compare integers (numbers).`
 ---
 
 **3. Why should conditions be tested with different values?**
 
 Add your answer here.
-
+`Testing conditions with different values—often called edge-case testing—ensures the Bash script works reliably in every real-world situation. If the only test values that you expect to work, your script might crash when it hits an unexpected input.`
 ---
 
 **4. How can conditionals help in automation scripts?**
 
 Add your answer here.
-
+`Conditionals make automation scripts smart. Without conditionals, a script blindly runs commands in a straight line and breaks if anything changes. Conditionals let scripts adapt to changing environments, handle errors, and make choices alone.`
 ---
 
 # Task 8 — Functions: Final Bash Automation Script
@@ -375,19 +375,19 @@ Create a final Bash script using functions to organize reusable code.
 #### Screenshot 1 — Content of `final-automation.sh`
 
 Add your screenshot here.
-
+![alt text](final-automation-content.png)
 ---
 
 #### Screenshot 2 — Output of `./final-automation.sh`
 
 Add your screenshot here.
-
+![alt text](final-automation-output.png)
 ---
 
 #### Screenshot 3 — Output of `ls -lah` showing all created scripts
 
 Add your screenshot here.
-
+![alt text](ls-lah_automation.png)
 ---
 
 ### Notes
@@ -397,25 +397,40 @@ Answer the following in your own words:
 **1. What is a function in Bash?**
 
 Add your answer here.
-
+`A function in Bash is a reusable block of code that groups several commands together under a single name. Instead of writing the same code over and over in the script, it can be written once inside a function and call it by name whenever needed. Example: A mini-script inside your main script.`
 ---
 
 **2. Why are functions useful in scripts?**
 
 Add your answer here.
-
+`Functions are useful because they turn messy, repetitive scripts into clean, organized, and reliable tools.`
 ---
 
 **3. Which functions did you create in this script?**
 
 Add your answer here.
 
+print_header: Prints a decorative top border with the assignment name.print_user_details: Prints your full name and the assignment name.check_files: Checks if the target folder and file exist using -d and -f.
+print_tools: Uses a loop to display each tool in your array list.
 ---
 
 **4. How does this final script combine variables, arrays, loops, conditionals, files, and functions?**
 
 Add your answer here.
 
+This script is a complete integration drill. It uses functions as structural containers to organize and execute five core Bash concepts.Here is exactly how the script connects all these elements together:
+
+1. Variables and Functions
+The script defines global variables at the very top (full_name, assignment_name, directory_path, file_path).
+The Connection: Inside the functions print_header, print_user_details, and check_files, the script reads these variables using the $ symbol (like $assignment_name). This keeps the functions clean because you can change the values at the top of the script without rewriting the function code.
+
+2. Conditionals and Files
+Inside the check_files function, the script uses conditionals (if-else statements) to look at the physical storage system.
+The Connection: The script passes the file path variables to specific flags. It uses [ -d "$directory_path" ] to check if a directory exists, and [ -f "$file_path" ] to check if a regular file exists. The conditional decides which text message to print based on whether those files are physically on the computer.
+
+3. Arrays and Loops
+At the top, the script creates an array named tools which holds a list of items: ("bash" "nano" "chmod" "echo" "ls" "pwd").
+The Connection: Inside the print_tools function, the script uses a for loop to read this array. The syntax "${tools[@]}" tells Bash to look at every single item in the list. The loop then cycles through the array one by one, temporarily storing the current item in the tool variable and printing it to the screen.
 ---
 
 # LinkedIn Post (Required)
