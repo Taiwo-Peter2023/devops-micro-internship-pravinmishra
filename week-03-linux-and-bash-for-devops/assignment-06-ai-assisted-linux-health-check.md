@@ -21,13 +21,13 @@ Confirm that Nginx and the React application are healthy before building the aut
 #### Screenshot 1 — Output of `systemctl is-active nginx`, `ss -ltn | grep ':80'`, and `curl -I http://localhost`
 
 Add your screenshot here.
-
+![alt text](ass6wk3a.png)
 ---
 
 #### Screenshot 2 — Output of `pwd` and `find . -maxdepth 4 -type d | sort` showing the workspace folder structure
 
 Add your screenshot here.
-
+![alt text](pwd-findmaxdepth.png)
 ---
 
 ### Notes
@@ -37,19 +37,24 @@ Answer the following in your own words:
 **1. What proves that Nginx is running?**
 
 Add your answer here.
-
+Nginx is active is running because it was tested with systemctl is-active nginx and replied with active and it was verified with the public IP on the browser
 ---
 
 **2. What proves that the server is listening for HTTP traffic?**
 
 Add your answer here.
-
+The server is listening to HTTP traffic on port 80 because it was verified on the browser and command: ss -ltn | grep ':80' on the terminal
 ---
 
 **3. Why must you capture a healthy baseline before simulating an incident?**
 
 Add your answer here.
+Capturing a healthy baseline before simulating an incident ensures I can accurately measure the impact of the disruption and verify that the system recovers correctly. Without a baseline, you cannot tell if a performance dip or error message was caused by your simulated incident or if it was already happening before you started.
 
+Identifies Existing Issues
+Proves System Recovery
+Prevents False Alarms
+Measures True Impact
 ---
 
 # Task 2 — Create Project Context and Safety Rules in CLAUDE.md
@@ -63,7 +68,7 @@ Tell Claude exactly what this project does and what it is not allowed to do.
 #### Screenshot 3 — CLAUDE.md open in VS Code showing all four sections (Project Overview, Incident Workflow, Safety Rules, Output Rules)
 
 Add your screenshot here.
-
+![alt text](claudemd-vscode.png)
 ---
 
 ### Notes
@@ -73,19 +78,19 @@ Answer the following in your own words:
 **1. Why should Claude receive project-specific operational rules?**
 
 Add your answer here.
-
+For claude to understand the entire projects including rules and workflow
 ---
 
 **2. Why is the human required to execute the recovery command?**
 
 Add your answer here.
-
+It's important for human to execute the recovery command mannually
 ---
 
 **3. Which rule prevents Claude from making an unsupported diagnosis?**
 
 Add your answer here.
-
+Safety Rules
 ---
 
 # Task 3 — Use Agentic AI to Plan Before Writing the Script
@@ -135,25 +140,25 @@ Create one Bash script that gathers consistent Linux and Nginx health evidence.
 #### Screenshot 5 — Top section of `linux-triage.sh` showing variables, thresholds, and the checks array
 
 Add your screenshot here.
-
+![alt text](TopSection.png)
 ---
 
 #### Screenshot 6 — Middle section showing check functions and conditionals
 
 Add your screenshot here.
-
+![alt text](MiddleSection.png)
 ---
 
 #### Screenshot 7 — Bottom section showing the loop, summary function, and exit behavior
 
 Add your screenshot here.
-
+![alt text](BottomSection.png)
 ---
 
 #### Screenshot 8 — Output of `bash -n scripts/linux-triage.sh` (no syntax errors) and `ls -l scripts/linux-triage.sh` showing executable permission
 
 Add your screenshot here.
-
+![alt text](ls-l-linux-triage.png)
 ---
 
 ### Notes
@@ -163,31 +168,31 @@ Answer the following in your own words:
 **1. What is stored in the checks array?**
 
 Add your answer here.
-
+The checks array stores the names of five functions defined later in the script.Instead of storing text strings or numbers, this array stores executable function names so the script can run them automatically inside a loop.
 ---
 
 **2. How does the `for` loop use that array?**
 
 Add your answer here.
-
+The for loop uses that array to dynamically run each health check function one after the other. Instead of typing out each function call manually, the loop processes the whole list automatically.
 ---
 
 **3. Why are the health checks separated into functions?**
 
 Add your answer here.
-
+Separating the health checks into functions makes your script modular, organized, and easy to maintain. Instead of writing one massive block of code, breaking the tasks apart creates self-contained tools that do exactly one thing.
 ---
 
 **4. What is the purpose of `$(...)` in this script?**
 
 Add your answer here.
-
+In Bash, $(...) is used for command substitution. It runs a command in the background, captures whatever that command prints to the screen, and saves it as a text string.
 ---
 
 **5. Why does the script use different exit codes for HEALTHY, WARN, and FAIL?**
 
 Add your answer here.
-
+The script uses different exit codes (0, 1, and 2) so that other automation tools can instantly know the health status without reading the text report.Computers cannot easily read a long text file, but they can instantly read an exit code number.
 ---
 
 # Task 5 — Run and Understand the Healthy-State Report
@@ -201,13 +206,13 @@ Run the Bash script against the healthy server and verify that it creates a repo
 #### Screenshot 9 — Output of `./scripts/linux-triage.sh` showing your Full Name and all five check results
 
 Add your screenshot here.
-
+![alt text](Linux-triage-sh.png)
 ---
 
 #### Screenshot 10 — Output showing the captured exit code and final summary
 
 Add your screenshot here.
-
+![alt text](summary-linux-triage.png)
 ---
 
 ### Notes
@@ -217,7 +222,7 @@ Answer the following in your own words:
 **1. What is the overall status of your healthy baseline?**
 
 Add your answer here.
-
+FAIL
 ---
 
 **2. Which exact Linux evidence proves the application is serving traffic?**
@@ -229,13 +234,15 @@ Add your answer here.
 **3. Did your script return exit code 0 or 1? Explain why.**
 
 Add your answer here.
-
+script exit code: 2
 ---
 
 **4. What is the difference between a warning and a failure in this script?**
 
 Add your answer here.
+warning: is in this script is like an alert to notice
 
+failure: is the result of condition that are not met 
 ---
 
 # Task 6 — Create and Run the /linux-triage Skill
