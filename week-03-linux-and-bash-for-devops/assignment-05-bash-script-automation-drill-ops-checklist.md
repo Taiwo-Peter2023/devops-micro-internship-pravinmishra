@@ -69,7 +69,7 @@ Create your first Bash script, make it executable, and run it from the terminal.
 Add your screenshot here.
 
 ---
-
+![alt text](<Screenshot 2026-08-13 222028.png>)
 #### Screenshot 2 — Output of `./first-script.sh`
 
 Add your screenshot here.
@@ -79,7 +79,7 @@ Add your screenshot here.
 #### Screenshot 3 — Output of `ls -l first-script.sh` showing executable permission
 
 Add your screenshot here.
-
+![alt text](ls-l.png)
 ---
 
 ### Notes
@@ -89,19 +89,27 @@ Answer the following in your own words:
 **1. What is the purpose of `#!/bin/bash`?**
 
 Add your answer here.
-
+`The line #!/bin/bash is called a shebang (or hashbang). Its primary purpose is to tell the operating system's kernel exactly which interpreter to use to execute the commands inside the scrip`
 ---
 
 **2. Why do we use `chmod +x` before running a script?**
 
 Add your answer here.
-
+`We use chmod +x to grant execute permissions to a file, allowing the operating system to run it as a program or script`
 ---
 
 **3. What is the difference between running a script using `./script.sh` and `bash script.sh`?**
 
 Add your answer here.
+`The core difference is how the interpreter is selected and whether the file needs execute permissions`
 
+.script.sh:
+Interpreter Used:Controlled by the shebang (e.g., #!/bin/bash)
+Execute Permission Required: Yes
+
+bash script.sh 
+always forces the Bash interpreter
+Only requires read permiossion
 ---
 
 # Task 3 — Variables: User Information Script
@@ -115,13 +123,13 @@ Use variables to store and display user-related information.
 #### Screenshot 1 — Content of `user-info.sh`
 
 Add your screenshot here.
-
+![alt text](userInfoContent.png)
 ---
 
 #### Screenshot 2 — Output of `./user-info.sh`
 
 Add your screenshot here.
-
+![alt text](.user-info.png)
 ---
 
 ### Notes
@@ -131,19 +139,19 @@ Answer the following in your own words:
 **1. What is a variable in Bash?**
 
 Add your answer here.
-
+`A variable in Bash is a temporary storage location in memory that holds a piece of text or a number. You assign a name to this location so you can easily store, modify, and retrieve data throughout your script`
 ---
 
 **2. Why should we avoid spaces around the `=` sign when creating variables?**
 
 Add your answer here.
-
+`We must avoid spaces around the = sign because Bash interprets spaces as delimiters separating a command from its arguments`
 ---
 
 **3. How do you access the value stored inside a Bash variable?**
 
 Add your answer here.
-
+`prefix the variable name with a dollar sign ($).`
 ---
 
 # Task 4 — Arrays & Loops: Tools Checklist Script
@@ -157,13 +165,13 @@ Use arrays and loops to print a checklist of tools used in Bash scripting.
 #### Screenshot 1 — Content of `tools-checklist.sh`
 
 Add your screenshot here.
-
+![alt text](tools-checklist-content.png)
 ---
 
 #### Screenshot 2 — Output of `./tools-checklist.sh`
 
 Add your screenshot here.
-
+![alt text](.tools-checklist.png)
 ---
 
 ### Notes
@@ -173,25 +181,25 @@ Answer the following in your own words:
 **1. What is an array in Bash?**
 
 Add your answer here.
-
+`An array in Bash is a variable that can store multiple values under a single name instead of just one. You can think of it as a numbered list or a collection of items that you can manage together.`
 ---
 
 **2. Why are arrays useful in scripts?**
 
 Add your answer here.
-
+`Arrays are useful because they allow you to process lists of data dynamically using a single block of code instead of writing repetitive commands for every individual item.`
 ---
 
 **3. What does `"${tools[@]}"` mean?**
 
 Add your answer here.
-
+`The syntax "${tools[@]}" means "expand every single element in the tools array as an independent, safely quoted item."It is the standard, secure way to pass an entire list of items to a command or loop in Bash.`
 ---
 
 **4. What is the purpose of the `for` loop in this script?**
 
 Add your answer here.
-
+`The purpose of the for loop in this script is to iterate through the tools array and print a customized line for each individual tool in the list.`
 ---
 
 # Task 5 — Loops: Number Counter Script
@@ -205,13 +213,13 @@ Use loops to repeat a task multiple times.
 #### Screenshot 1 — Content of `counter.sh`
 
 Add your screenshot here.
-
+![alt text](counter-content.png)
 ---
 
 #### Screenshot 2 — Output of `./counter.sh`
 
 Add your screenshot here.
-
+![alt text](.counter.png)
 ---
 
 ### Notes
