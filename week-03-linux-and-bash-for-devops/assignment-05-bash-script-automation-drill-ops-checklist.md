@@ -263,17 +263,17 @@ Use file checks and conditionals to verify whether files and directories exist.
 Add your screenshot here.
 
 ---
-
+![alt text](ls-lah.png)
 #### Screenshot 2 — Content of `file-check.sh`
 
 Add your screenshot here.
-
+![alt text](file-check-sh-1.png)
 ---
 
 #### Screenshot 3 — Output of `./file-check.sh`
 
 Add your screenshot here.
-
+![alt text](filecheck-sh-output.png)
 ---
 
 ### Notes
