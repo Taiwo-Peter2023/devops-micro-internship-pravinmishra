@@ -304,7 +304,7 @@ Create a controlled service failure, gather evidence through Bash, and let Claud
 #### Screenshot 13 — Output showing Nginx is inactive and the HTTP request fails
 
 Add your screenshot here.
-
+![alt text](inactive-failed.png)
 ---
 
 #### Screenshot 14 — `/linux-triage` output showing failed evidence, most likely cause, and a suggested recovery command
@@ -316,29 +316,32 @@ Add your screenshot here.
 #### Screenshot 15 — `incident-failure-report.txt` showing the failed checks and your Full Name
 
 Add your screenshot here.
-
+![alt text](failed-report-1.png)
 ---
 
 ### Notes
 
 Answer the following in your own words:
 
-**1. Which three checks failed?**
+**1. Which three checks failed?
 
 Add your answer here.
-
+[FAIL] Nginx service is not active
+[FAIL] Port 80 is not listening
+[FAIL] Local HTTP check returned status 000
+[FAIL] Root disk usage is 134202720%
 ---
 
 **2. What evidence supports the conclusion that Nginx is unavailable?**
 
 Add your answer here.
-
+Through the terminal output and unreachable via browser
 ---
 
 **3. Did Claude execute the recovery command? Why is that important?**
 
 Add your answer here.
-
+Yes
 ---
 
 **4. Which phase of the Agentic Loop is represented by the Bash report?**
@@ -364,7 +367,7 @@ Recover the service as the human operator and prove that the system is healthy a
 #### Screenshot 16 — Output showing Nginx is active and `curl -I http://localhost` returns 200 OK
 
 Add your screenshot here.
-
+![alt text](is-active.png)
 ---
 
 #### Screenshot 17 — Second `/linux-triage` output showing successful recovery with no FAIL results
@@ -376,13 +379,13 @@ Add your screenshot here.
 #### Screenshot 18 — Output of `ls -lah reports` showing both `incident-failure-report.txt` and `recovery-report.txt`
 
 Add your screenshot here.
-
+![alt text](ls-lah__.png)
 ---
 
 #### Screenshot 19 — `incident-summary.md` showing all required sections and your Full Name
 
 Add your screenshot here.
-
+![alt text](incident_summary.png)
 ---
 
 ### Notes
@@ -392,19 +395,20 @@ Answer the following in your own words:
 **1. What action did you execute manually?**
 
 Add your answer here.
+I run the start niginx manually
 
 ---
 
 **2. What evidence proves that the service recovered?**
 
 Add your answer here.
-
+The output on the terminal and the localhost output
 ---
 
 **3. Why is the second triage run necessary?**
 
 Add your answer here.
-
+To recover the inactive server
 ---
 
 **4. What could go wrong if an AI agent automatically restarted every failed service?**
@@ -423,9 +427,9 @@ Add your answer here.
 
 Fill in all seven sections below in your own words.
 
-**Full Name:** Add your full name here
+**Full Name:** Taiwo Olatunji
 
-**Date:** DD/MM/YYYY
+**Date:** 18/08/2026
 
 ---
 
