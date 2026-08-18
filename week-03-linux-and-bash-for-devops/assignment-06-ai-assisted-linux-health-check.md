@@ -104,7 +104,7 @@ Use Claude Code to inspect the environment and produce a read-only plan before c
 #### Screenshot 4 — Claude Code showing the five-check plan and read-only inspection results
 
 Add your screenshot here.
-
+![alt text](<Screenshot 2026-08-18 064416.png>)
 ---
 
 ### Notes
@@ -234,7 +234,7 @@ Add your answer here.
 **3. Did your script return exit code 0 or 1? Explain why.**
 
 Add your answer here.
-script exit code: 2
+script exit code: 1
 ---
 
 **4. What is the difference between a warning and a failure in this script?**
@@ -256,13 +256,13 @@ Turn the Bash script into a reusable, manually invoked Agentic AI workflow.
 #### Screenshot 11 — `SKILL.md` showing the frontmatter, allowed tool restrictions, and safety rules
 
 Add your screenshot here.
-
+![alt text](skill-md.png)
 ---
 
 #### Screenshot 12 — `/linux-triage` output for the healthy server
 
 Add your screenshot here.
-
+![alt text](linux-triage-1.png)
 ---
 
 ### Notes
