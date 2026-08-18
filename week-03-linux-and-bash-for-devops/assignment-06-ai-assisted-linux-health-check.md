@@ -120,7 +120,7 @@ Add your answer here.
 **2. Did Claude follow the instruction not to create files? How did you verify this?**
 
 Add your answer here.
-
+Yes
 ---
 
 **3. Why is planning before coding useful in DevOps automation?**
