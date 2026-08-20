@@ -28,7 +28,7 @@ Confirm you are working in your own fork, then create a dedicated branch for thi
 #### Screenshot 1 — Output of git remote -v and git branch showing the new branch
 
 Add your screenshot here.
-
+![alt text](S1-gitremote-v.png)
 ---
 
 ### Notes
@@ -50,7 +50,7 @@ On your own fork of this repository (the one you've been submitting your DMI wor
 #### Screenshot 1 — Output of  `git status` showing the staged file on feature/ai-pr-ready
 
 Add your screenshot here.
-
+![alt text](gitStatus-S2.png)
 ---
 
 ### Notes
@@ -72,13 +72,13 @@ Create a tracked, shareable pre-commit hook that blocks a commit containing secr
 #### Screenshot 2 — `hooks/pre-commit` open in VS Code showing the full script
 
 Add your screenshot here.
-
+![alt text](pre-commit-vscode.png)
 ---
 
 #### Screenshot 3 — Output of `git config core.hooksPath` confirming it points to `hooks`
 
 Add your screenshot here.
-
+![alt text](corehooksPath.png)
 ---
 
 ### Notes
@@ -106,7 +106,7 @@ Attempt to commit the staged file from Task 1 and show the hook rejecting it.
 #### Screenshot 4 — Terminal showing `git commit` rejected with the hook's "BLOCKED" message naming the exact file
 
 Add your screenshot here.
-
+![alt text](rejected-commit-S4.png)
 ---
 
 ### Notes
@@ -114,7 +114,7 @@ Add your screenshot here.
 **1. Which line in `hooks/pre-commit` matched your fake key, and why did it match?**
 
 Add your answer here.
-
+line 3
 ---
 
 **2. Could this hook have caught a poorly-named variable that stores a secret without the `AKIA` prefix? What does that tell you about the limits of a fixed rule like this?**
@@ -134,7 +134,7 @@ Create a manually invoked Claude Code skill that reads your staged changes and p
 #### Screenshot 5 — `SKILL.md` frontmatter showing `allowed-tools: Bash, Read, Grep` (no `Write`) and `disable-model-invocation: true`
 
 Add your screenshot here.
-
+![alt text](skill-md-S5.png)
 ---
 
 #### Screenshot 6 — `/pr-ready` output while the risky file is still staged, showing it flagged the secret and/or debug statement
@@ -168,7 +168,7 @@ Remove the secret and debug statement, then prove both gates now pass clean.
 #### Screenshot 7 — `git commit` succeeding after the fix (no BLOCKED message)
 
 Add your screenshot here.
-
+![alt text](git-commit-succeed-S7.png)
 ---
 
 #### Screenshot 8 — Second `/pr-ready` run showing a clean risk report and a drafted PR title + description
@@ -182,7 +182,7 @@ Add your screenshot here.
 **1. What exactly did you change to satisfy the pre-commit hook?**
 
 Add your answer here.
-
+I removed the hardcoded key
 ---
 
 # Task 6 — Push and Open a Pull Request Using the AI Draft
@@ -198,7 +198,7 @@ Push your branch and open a real Pull Request, using `/pr-ready`'s drafted title
 #### Screenshot 9 — Your Pull Request showing the base repository is your own fork, plus the title and description, with the `/pr-ready` draft visible for comparison (paste it in the PR conversation or your notes below)
 
 Add your screenshot here.
-
+![alt text](pull-request-S9.png)
 ---
 
 #### PR Link
