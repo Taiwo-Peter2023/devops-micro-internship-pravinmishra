@@ -140,7 +140,9 @@ Add your screenshot here.
 #### Screenshot 6 — `/pr-ready` output while the risky file is still staged, showing it flagged the secret and/or debug statement
 
 Add your screenshot here.
+![alt text](pr-clausde1.png)
 
+![alt text](pr-claude2.png)
 ---
 
 ### Notes
@@ -174,7 +176,9 @@ Add your screenshot here.
 #### Screenshot 8 — Second `/pr-ready` run showing a clean risk report and a drafted PR title + description
 
 Add your screenshot here.
+![alt text](pr-ready-clean1.png) 
 
+![alt text](pr-ready-clean2.png)
 ---
 
 ### Notes
@@ -198,13 +202,14 @@ Push your branch and open a real Pull Request, using `/pr-ready`'s drafted title
 #### Screenshot 9 — Your Pull Request showing the base repository is your own fork, plus the title and description, with the `/pr-ready` draft visible for comparison (paste it in the PR conversation or your notes below)
 
 Add your screenshot here.
-![alt text](pull-request-S9.png)
+![alt text](pull-request-S10.png)
+
 ---
 
 #### PR Link
 
 Add your PR URL here...
-
+`https://github.com/Taiwo-Peter2023/devops-micro-internship-interviews/pull/1`
 ---
 
 ### Notes
