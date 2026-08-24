@@ -156,7 +156,7 @@ Add your screenshot here.
 #### Screenshot 11 — Git commit output
 
 Add your screenshot here.
-
+![alt text](git-commit-after-h1-edit.png)
 ---
 
 #### Screenshot 12 — Live URL in the browser showing the UI change, with the URL visible
