@@ -41,7 +41,7 @@ Answer the following in your own words:
 **1. Why is it important to set up budget alerts when using an AWS account?**
 
 Write your answer here.
-
+It's very import to setup a budget while using AWS account in order to controll the billing amount at the end of each month
 ---
 
 # Submission Instructions
