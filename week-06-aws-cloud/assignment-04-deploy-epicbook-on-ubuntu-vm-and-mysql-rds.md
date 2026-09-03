@@ -119,7 +119,7 @@ Add your screenshot here.
 #### Screenshot 12 — Connectivity & security section showing the VPC and attached security group
 
 Add your screenshot here.
-
+![alt text](S12-Ass4-wk6.png)
 ---
 
 # Task 6 — Initialize Database (SQL Dump Import)
