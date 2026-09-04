@@ -133,6 +133,13 @@ Connect to RDS from EC2, create the `epicbook` database, and import the provided
 #### Screenshot 13 — Terminal showing successful `SHOW TABLES;` output with tables listed
 
 Add your screenshot here.
+![alt text](TABLE-In-bookstore.png)
+
+![alt text](COUNTFROMBOOK.png)
+
+![alt text](CountfromAuthor.png)
+
+![alt text](S13-Ass4-Wk6.png)
 
 ---
 
@@ -147,19 +154,19 @@ Clone the EpicBook repository, install backend dependencies, configure `.env` wi
 #### Screenshot 14 — Terminal showing the repository cloned and the `ls` output
 
 Add your screenshot here.
-
+![alt text](S14-Ass4-wk6.png)
 ---
 
 #### Screenshot 15 — Terminal showing the backend running, or `ss -tulpn` showing the port open
 
 Add your screenshot here.
-
+![alt text](S15-15Ass4-wk6.png)
 ---
 
 #### Screenshot 16 — `curl` output proving the backend responds
 
 Add your screenshot here.
-
+![alt text](S16-Ass4-Wk6.png)
 ---
 
 # Task 8 — Serve Frontend Using Nginx + Reverse Proxy to Backend
