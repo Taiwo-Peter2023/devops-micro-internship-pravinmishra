@@ -180,7 +180,7 @@ Copy the frontend files to the Nginx web root and configure Nginx to reverse-pro
 #### Screenshot 17 — `nginx -t` success output
 
 Add your screenshot here.
-
+![alt text](S17-Ass4-wk6.png)
 ---
 
 #### Screenshot 18 — Nginx configuration snippet showing the `/api/` reverse proxy
@@ -200,7 +200,7 @@ Verify the frontend loads publicly, the backend responds through Nginx, and EC2 
 #### Screenshot 19 — Browser showing the EpicBook application loaded with the public IP visible
 
 Add your screenshot here.
-
+![alt text](S19-Ass4-wk6.png)
 ---
 
 #### Screenshot 20 — Terminal showing a successful API call through the public endpoint
