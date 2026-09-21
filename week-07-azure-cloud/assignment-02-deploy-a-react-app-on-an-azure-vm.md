@@ -35,13 +35,12 @@ Create an Ubuntu 20.04 LTS VM (size B1s) with a Network Security Group allowing 
 #### Screenshot 2 — Azure VM overview page showing the VM name, Resource Group, and region
 
 Add your screenshot here.
-
----
+![alt text](S2-week7-Ass--.png)
 
 #### Screenshot 3 — Network Security Group inbound rules showing ports 22 and 80 allowed
 
 Add your screenshot here.
-
+![alt text](S3-wk7-Ass---1.png) 
 ---
 
 # Task 3 — SSH into the Azure VM
@@ -55,7 +54,7 @@ Connect to the VM over SSH and confirm the Linux prompt is visible.
 #### Screenshot 4 — Terminal showing a successful SSH login with the prompt visible
 
 Add your screenshot here.
-
+![alt text](S4-wk7-ass---2.png)
 ---
 
 # Task 4 — Update OS and Install Prerequisites (Git, Node.js, npm)
@@ -69,7 +68,7 @@ Update Ubuntu and install Git, Node.js, and npm.
 #### Screenshot 5 — Terminal output showing `node -v` and `npm -v`
 
 Add your screenshot here.
-
+![alt text](S5-wk7-Ass---3.png)
 ---
 
 # Task 5 — Clone and Build the React App
