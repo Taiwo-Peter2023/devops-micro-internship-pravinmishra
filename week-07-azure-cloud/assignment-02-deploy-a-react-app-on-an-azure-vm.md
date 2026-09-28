@@ -82,7 +82,7 @@ Clone `my-react-app`, install dependencies, and run `npm run build` to produce t
 #### Screenshot 6 — Terminal showing successful `npm run build` completion and `ls -la build` output
 
 Add your screenshot here.
-
+![alt text](Wk7-Ass2-S6.png)
 ---
 
 # Task 6 — Install and Configure Nginx to Serve the React Build
@@ -96,13 +96,13 @@ Install Nginx and configure it to serve the `build/` directory with `try_files $
 #### Screenshot 7 — Successful `sudo nginx -t` output
 
 Add your screenshot here.
-
+![alt text](Wk7-Ass2-S7.png)
 ---
 
 #### Screenshot 8 — Nginx configuration snippet showing the build root and `try_files` directive
 
 Add your screenshot here.
-
+![alt text](S8-week7-ass2.png)
 ---
 
 # Task 7 — Test the Deployment (Public IP)
@@ -116,7 +116,7 @@ Confirm the React app loads through the VM's public IP, navigation works, and a 
 #### Screenshot 9 — Browser showing the React app with the public IP visible in the address bar
 
 Add your screenshot here.
-
+![alt text](S9-Ass2-week7.png)
 ---
 
 # Task 8 — Basic Hardening (Recommended)
@@ -130,7 +130,7 @@ Restrict the SSH Network Security Group rule to your IP if not already restricte
 #### Screenshot 10 (optional) — Network Security Group rule showing SSH restricted to your IP
 
 Add your screenshot here.
-
+![alt text](S10-week7-ass2.png)
 ---
 
 # Submission Instructions
