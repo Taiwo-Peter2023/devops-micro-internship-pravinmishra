@@ -7,7 +7,8 @@ Part of the DevOps Micro Internship (DMI) Cohort 3 with Agentic AI
 ## Purpose
 
 <!-- One or two sentences describing what this assignment covers -->
-
+Deploying a static website on react application, using nginx web server.
+Knowing directories of each files and understanding what they are doing.
 ---
 
 # Task 1 — <!-- Task Name -->

@@ -31,13 +31,13 @@ Sign in to the Azure Portal, locate key services (Resource Groups, Virtual Machi
 #### Screenshot 1 — Azure Portal homepage after successful login
 
 Add your screenshot here.
-
+![alt text](S1-Ass1-week7.png)
 ---
 
 #### Screenshot 2 — "Subscriptions" section showing the "Free Trial" subscription
 
 Add your screenshot here.
-
+![alt text](S2-Ass1-week7.png)
 ---
 
 ### Notes
@@ -45,7 +45,10 @@ Add your screenshot here.
 Write a three-to-four-line paragraph explaining which Azure services you plan to explore first and why.
 
 Write your answer here.
-
+Networking
+Virtual Machine
+IAM
+Security Group
 ---
 
 # Submission Instructions
