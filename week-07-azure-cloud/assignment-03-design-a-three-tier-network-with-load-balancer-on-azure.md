@@ -21,7 +21,7 @@ Create `eb-demo-vnet` (10.0.0.0/16) with `web-subnet` (10.0.1.0/24), `app-subnet
 #### Screenshot 1 — Subnet configuration screen showing the three subnets and Bastion subnet (if enabled)
 
 Add your screenshot here.
-
+![alt text](S1-WEEK7-Ass3.png)
 ---
 
 # Task 2 — Deploy the Web VM and Install NGINX
@@ -45,7 +45,7 @@ Create Standard Public Load Balancer `web-public-elb` with frontend IP `web-elb-
 #### Screenshot 2 — Load Balancer frontend IP configuration
 
 Add your screenshot here.
-
+![alt text](S2-Ass3-Wk7.png)
 ---
 
 # Task 4 — Test the Architecture
@@ -59,7 +59,7 @@ Confirm the NGINX default page is reachable through the Load Balancer's public I
 #### Screenshot 3 — Browser showing the NGINX welcome page through the Load Balancer Public IP
 
 Add your screenshot here.
-
+![alt text](S3-Ass3-wk7.png)
 ---
 
 # Task 5 — Clean Up Resources
